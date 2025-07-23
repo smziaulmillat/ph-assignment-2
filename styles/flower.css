@@ -120,4 +120,13 @@
   .banner {
     flex-direction: column-reverse;
   }
+  /* our plant sec */
+  .our-plant-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 5px;
+  }
+  .our-plant-card img {
+    width: 100%;
+  }
 }
