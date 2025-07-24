@@ -275,5 +275,34 @@
   }
   .best-deal-img {
     flex-direction: column;
+    gap: 25px;
+  }
+  .best-deal-img-left {
+    gap: 35px;
+    width: 90%;
+    margin: 5px auto;
+  }
+  .best-deal-img-left img {
+    border-radius: 20px;
+    width: 320px;
+    height: 210px;
+    width: 100%;
+    /* margin: 0 auto; */
+  }
+  .best-deal-img-right {
+    width: 90%;
+    margin: 5px auto;
+  }
+  .best-deal-img-right img {
+    width: 100%;
+  }
+  .para-1 {
+    transform: translateX(200px) translateY(-720px);
+  }
+  .para-2 {
+    transform: translateX(60px) translateY(-480px);
+  }
+  .para-3 {
+    transform: translateX(-140px) translateY(-230px);
   }
 }
