@@ -160,4 +160,24 @@
   .our-plant-card img {
     width: 100%;
   }
+  /* plant lover sec */
+  .plant-lover {
+    flex-direction: column;
+  }
+  .plant-lover-image {
+    width: 100%;
+  }
+  .plant-lover-image img:nth-child(1) {
+    margin-left: 6px;
+    margin-right: 0;
+    width: calc(100%-6px);
+  }
+  .plant-lover-content {
+    margin: 25px 5px 0;
+    margin-bottom: 200px;
+    width: 545px;
+  }
+  /* .plant-lover-ul {
+    list-style: circle;
+  } */
 }
