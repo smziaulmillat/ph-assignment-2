@@ -112,6 +112,37 @@
   font-weight: 700;
 }
 
+/* plant lover sec */
+.plant-lover {
+  display: flex;
+  gap: 50px;
+  margin-top: 150px;
+}
+.plant-lover-image {
+  width: 50%;
+}
+.plant-lover-image img:nth-child(1) {
+  width: 540px;
+  height: 600px;
+}
+.plant-lover-image img:nth-child(2) {
+  width: 280px;
+  height: 280px;
+  transform: translateX(350px) translateY(-720px);
+}
+.plant-lover-content {
+  width: 50%;
+  margin: 40px auto;
+}
+.plant-lover-titlle {
+  font-size: 3.125rem;
+  font-weight: 700;
+}
+.plant-lover-list {
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
 /* responsive mobile */
 @media screen and (max-width: 576px) {
   .display-none {
