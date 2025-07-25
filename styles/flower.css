@@ -53,6 +53,9 @@
   text-decoration: none;
   color: #252432;
 }
+#shop , #about-us {
+  color: #8987A1;
+}
 .navbar .navbar-links .link:nth-child(1) {
   font-weight: 700;
 }
@@ -139,9 +142,13 @@
   font-size: 3.125rem;
   font-weight: 700;
 }
+.plant-lover-ul{
+  margin-left: 30px;
+}
 .plant-lover-list {
   font-size: 1.3rem;
   margin-top: 20px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
                                       /* best deal sec */
@@ -162,7 +169,8 @@
   margin: 0 auto;
   font-size: 1.3rem;
   color: rgba(0, 0, 0, 0.5);
-  width: 65%;
+  width: 75%;
+  text-align: center;
 }
 .best-deal-img {
   display: flex;
@@ -180,12 +188,14 @@
   border-radius: 20px;
   width: 320px;
   height: 190px;
+  filter: brightness(0.5);
 }
 .best-deal-img-right {
   width: 70%;
 }
 .best-deal-img-right img {
   border-radius: 20px;
+  filter: brightness(0.5);
 }
 .para-1 {
   transform: translateX(90px) translateY(-350px);
@@ -237,7 +247,7 @@
 .join-join{
   background-image: url('../assets/news-letter-bg.png');
   width: 100%;
-  height: 530px;
+  height: 500px;
   margin-bottom: 50px;
 
   display: flex;
@@ -270,8 +280,8 @@
 /* footer */
 .footer{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 100px;
+  grid-template-columns: 350px 100px 100px 200px;
+  /* gap: 100px; */
   justify-content: space-around;
   margin-left: 40px;
   margin-top: 100px;
@@ -337,21 +347,43 @@
   .display-none {
     display: none;
   }
+  .navbar .navbar-links .link a{
+    font-size: 1.25rem;
+  }
+  .navbar-img {
+    margin-left: 20px;
+  }
   .banner {
     flex-direction: column-reverse;
+  }
+  .banner-content-tile {
+   margin-left: 10px;
+   font-size: 2rem;
+   margin-top: 30px;
+   margin-bottom: 15px;
+  }
+  .banner-content-subtitle {
+   margin-left: 10px;
   }
                                       /* our plant sec responsive*/
   .our-plant-cards {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 5px;
     margin-left: 5px;
   }
   .our-plant-card img {
     width: 100%;
   }
+  .our-plant-title {
+  font-size: 2.2rem;
+  }
+  .our-plant-subtitle {
+  font-size: 1.2rem;
+  } 
                                      /* plant lover sec responsive*/
   .plant-lover {
     flex-direction: column;
+    margin-left: 5px;
   }
   .plant-lover-image {
     width: 100%;
@@ -366,12 +398,22 @@
     margin-bottom: 200px;
     width: 545px;
   }
+  .plant-lover-title{
+    font-size: 2rem;
+  }
+  .plant-lover-list{
+    font-size: 1.15rem;
+  }
   /* .plant-lover-ul {
     list-style: circle;
   } */
 
                                        /* best deals responsive */
+  .best-deal-title{
+    font-size: 2.2rem; 
+  }                                    
   .best-deal-description {
+    font-size: 1.2rem;
     text-align: center;
     width: 100%;
   }
@@ -387,7 +429,7 @@
   .best-deal-img-left img {
     border-radius: 20px;
     width: 320px;
-    height: 210px;
+    height: 250px;
     width: 100%;
     /* margin: 0 auto; */
   }
@@ -399,15 +441,24 @@
     width: 100%;
   }
   .para-1 {
-    transform: translateX(200px) translateY(-720px);
+    transform: translateX(160px) translateY(-760px);
   }
   .para-2 {
-    transform: translateX(60px) translateY(-480px);
+    transform: translateX(-60px) translateY(-480px);
   }
   .para-3 {
-    transform: translateX(-140px) translateY(-230px);
+    transform: translateX(-300px) translateY(-180px);
   }
-
+  .para-1 h3, .para-2 h3 {
+    width: 230px;
+  }
+  .para-3 h3{
+    font-size: 1.5rem;
+    width: 250px;
+  }
+  .para-3 a{
+    font-size: 1.1rem;
+  }
                                       /* join sec responsive */
   .join-join{
     width: 100%;
