@@ -370,7 +370,7 @@
     list-style: circle;
   } */
 
-                                          /* best deals responsive */
+                                       /* best deals responsive */
   .best-deal-description {
     text-align: center;
     width: 100%;
@@ -408,7 +408,7 @@
     transform: translateX(-140px) translateY(-230px);
   }
 
-  /* join sec responsive */
+                                      /* join sec responsive */
   .join-join{
     width: 100%;
   }
@@ -422,5 +422,28 @@
   .join-title{
     text-align: center;
     font-size: 1.55rem;
+  }
+
+  /* footer responsive */
+  .footer{ 
+  grid-template-columns: repeat(1,1fr);
+  gap: 0px;
+  margin-left: 30px;
+  /* gap: 100px;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-top: 100px; */
+  }
+  .f-1-description{
+   width: 70%;
+  }
+  .f-2{
+    height: 220px;
+  }
+  .f-3{
+    height: 220px;
+  }
+  .f-4{
+    margin-bottom: 50px;
   }
 }
