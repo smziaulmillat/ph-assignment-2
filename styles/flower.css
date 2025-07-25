@@ -267,8 +267,8 @@
   color: white;
 }
 
-                                   /* responsive mobile */
-                                   
+                                       /* responsive mobile */
+
 @media screen and (max-width: 576px) {
   .display-none {
     display: none;
@@ -276,7 +276,7 @@
   .banner {
     flex-direction: column-reverse;
   }
-                                      /* our plant sec */
+                                      /* our plant sec responsive*/
   .our-plant-cards {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -285,7 +285,7 @@
   .our-plant-card img {
     width: 100%;
   }
-                                     /* plant lover sec */
+                                     /* plant lover sec responsive*/
   .plant-lover {
     flex-direction: column;
   }
@@ -306,7 +306,7 @@
     list-style: circle;
   } */
 
-                                          /* best deals */
+                                          /* best deals responsive */
   .best-deal-description {
     text-align: center;
     width: 100%;
@@ -342,5 +342,21 @@
   }
   .para-3 {
     transform: translateX(-140px) translateY(-230px);
+  }
+
+  /* join sec responsive */
+  .join-join{
+    width: 100%;
+  }
+  .join-input{
+  width: 295px; 
+  padding: 16px 100px 16px 20px;
+  }
+  .join-write button{
+  width: 135px;
+  } 
+  .join-title{
+    text-align: center;
+    font-size: 1.55rem;
   }
 }
